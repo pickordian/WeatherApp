@@ -1,0 +1,6 @@
+.daysCard{
+    min-height: calc(100% - 1em);
+    min-width: calc(100%/7 - 1em);
+    background-color: rgb(40, 20, 223);
+    margin: 0.5em;
+}
