@@ -1,8 +1,8 @@
 import React from 'react'
 import '../style/detailCard.css'
-function detailCard() {
+function detailCard(props) {
   return (
-    <div className='detailCard'>detailCard</div>
+    <div className='detailCard'>{props.val} { props.unit}</div>
   )
 }
 

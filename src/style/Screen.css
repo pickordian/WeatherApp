@@ -1,24 +1,23 @@
 .Screen{
     height: 90vh;
-    background-color: rgb(6, 38, 56);
     display: flex;
     flex-direction: column;
-}
+}   
 .Screen .top{
     min-height: calc(20% - 1em);
-    background-color:rgb(31, 103, 144) ;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     margin: 0.5em;
     box-sizing: border-box;
+    background-color: rgba(108, 108, 180, 0.3);
 }
 .Screen .middle{
     min-height: calc(80% - 1em);
-    background-color: rgb(76, 173, 230);
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: rgba(108, 108, 180, 0.3);
     margin: 0.5em;
 }

@@ -1,8 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../style/daysCard.css'
-function daysCard() {
+function daysCard(props) {
   return (
-    <div className='daysCard'>daysCard</div>
+    <div className='daysCard'>
+    </div>
   )
 }
 

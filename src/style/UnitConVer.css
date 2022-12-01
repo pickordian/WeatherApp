@@ -1,0 +1,23 @@
+.UnitConVer {
+    text-align: center;
+    min-height: calc(100% - 0.4em);
+    min-width: calc(18% - 0.4em);
+    margin: 0.2em;
+    background-color: rgba(108, 108, 180, 0);
+}
+
+.Fbutton {
+    font-size: 24px;
+    width: 20%;
+    color: rgb(94, 139, 179);
+    background-color: rgba(108, 108, 180, 0);
+    border-style: hidden;
+}
+
+.Cbutton {
+    font-size: 24px;
+    width: 20%;
+    color: rgb(94, 139, 179);
+    background-color: rgba(108, 108, 180, 0);
+    border-style: hidden;
+}

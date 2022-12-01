@@ -1,6 +1,5 @@
 .detailCard{
-    min-height: calc(100% - 1em);
-    min-width: calc(80% - 1em);
-    background-color: aquamarine;
-    margin: 0.5em;
+    min-height: calc(100%);
+    min-width: calc(80%);
+    background-color:rgb(43, 102, 190);
 }
