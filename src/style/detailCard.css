@@ -1,5 +1,5 @@
 .detailCard{
     min-height: calc(100%);
     min-width: calc(80%);
-    background-color:rgb(43, 102, 190);
+    background-color: rgba(108, 108, 180, 0.3);
 }

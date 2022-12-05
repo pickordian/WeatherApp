@@ -3,19 +3,15 @@ import '../style/UnitConVer.css'
 
 function UnitConver(props) {
   const handleClick = ( temp_unit , button_unit) => {
-    if (temp_unit.unit != button_unit) {
-      if (button_unit == "°C") {
+    if (temp_unit != button_unit) {
+      if (button_unit == "Celsius") {
+        console.log("Celsius");
         setActive({
           ...isActive,
           C: true,
           F: false
-          
         });
-        props.setUnit({
-          ...temp_unit,
-          val: (temp_unit.val - 32)/1.8,
-          unit: "°C"
-        });
+        props.setUnit("Celsius");
       }
       else {
         setActive({
@@ -23,11 +19,7 @@ function UnitConver(props) {
           C: false,
           F: true
         });
-        props.setUnit({
-          ...temp_unit,
-          val: temp_unit.val*1.8 + 32,
-          unit: "°F"
-        });
+        props.setUnit("Fahrenheit");
       }
     }
   }
@@ -35,10 +27,10 @@ function UnitConver(props) {
   return (
       <div className='UnitConVer'>
         <button className='Fbutton' style={{ color: isActive.F ? 'rgb(255,255,255)' : '' }}
-          onClick={() => handleClick(props.temp_unit,"°F")}> °F </button>
+          onClick={() => handleClick(props.temp_unit,"Fahrenheit")}> °F </button>
 
         <button className='Cbutton' style={{ color: isActive.C ? 'rgb(255,255,255)' : 'rgb(94, 139, 179)' }}
-          onClick={() => handleClick(props.temp_unit, "°C")}> °C </button>
+          onClick={() => handleClick(props.temp_unit, "Celsius")}> °C </button>
       </div>
     )
   }

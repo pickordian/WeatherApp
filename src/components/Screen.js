@@ -10,8 +10,9 @@ const ConverUnit = () => {
 function Screen() {
     const date = new Date();
     const [detail_date, setDate] = useState();
-    const [location, setLoc] = useState({ lat: '', long: '' });
-    const [temp_unit, setUnit] = useState({ val: 5, unit: "°C" });
+    const [location, setLoc] = useState("Denton"); 
+    const [temp_unit, setUnit] = useState("Celsius");
+
     return (
         <div className='Screen'>
             <div className='Screen top'>
@@ -25,8 +26,8 @@ function Screen() {
                 <UnitConver temp_unit = {temp_unit} setUnit={setUnit}> </UnitConver>
             </div>
             <div className='middle'>
-                <DetailCard val ={temp_unit.val} unit={temp_unit.unit} > </DetailCard>
-            <Searchbar></Searchbar>
+                <DetailCard temp_unit={temp_unit} > </DetailCard>
+            <Searchbar location={location} setLoc={setLoc} > </Searchbar>
             </div>
         </div>
     )

@@ -2,7 +2,7 @@ import React from 'react'
 import '../style/detailCard.css'
 function detailCard(props) {
   return (
-    <div className='detailCard'>{props.val} { props.unit}</div>
+    <div className='detailCard'>{props.temp_unit}</div>
   )
 }
 
