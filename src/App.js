@@ -4,8 +4,8 @@ import Screen from './components/Screen'
 function App() {
   return (
     <div className="App">
-      <Screen></Screen>
-      <footer> Footer </footer>
+      <Screen/>
+      <footer></footer>
     </div>
   );
 }

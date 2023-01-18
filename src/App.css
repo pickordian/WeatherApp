@@ -5,9 +5,9 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color:rgb(25, 5, 85);
+  background-color: rgb(28, 26, 26);
 }
 footer{
   height: 8vh;
-  background-color: rgb(82, 11, 205) ;
+  background-color: rgb(150, 143, 143);
 }

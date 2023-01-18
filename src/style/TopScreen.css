@@ -1,0 +1,6 @@
+.TopScreen{
+    display:flex;
+    flex-direction: row;
+    height: 30%;
+    width:  100%;
+}

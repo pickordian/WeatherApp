@@ -1,0 +1,6 @@
+.BottomScreen{
+    display:flex;
+    flex-direction: row;
+    height: 70%;
+    width: 100%;
+}
