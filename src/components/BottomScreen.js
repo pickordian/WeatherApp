@@ -5,8 +5,8 @@ import '../style/BottomScreen.css'
 function BottomScreen(props) {
   return (
       <div className='BottomScreen'>
-          <MainDay/>
-          <Location />
+      <MainDay data={props.data} hour={props.hour} />
+          {/* <Location /> */}
     </div>
   )
 }

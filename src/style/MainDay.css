@@ -1,5 +1,7 @@
 .MainDay{
-    height:100%;
-    width: 70%;
+    height:90%;
+    width: 80%;
     background-color: rgb(28, 26, 26);
+    color:white;
+    box-shadow: 5px 5px 5px 5px gray;
 }
