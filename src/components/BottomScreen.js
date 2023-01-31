@@ -6,7 +6,7 @@ function BottomScreen(props) {
   return (
       <div className='BottomScreen'>
       <MainDay data={props.data} hour={props.hour} />
-          {/* <Location /> */}
+          <Location setLocation={props.setLocation} />
     </div>
   )
 }

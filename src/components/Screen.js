@@ -46,7 +46,7 @@ function Screen() {
 
         return () => clearInterval(intervalId);
 
-    }, [hour, isAmerican.unit])
+    }, [hour, isAmerican.unit,location])
     useEffect(() => {
         setMainday(data[0])
     }, [data[0]]
@@ -54,7 +54,7 @@ function Screen() {
     return (
         <div className='Screen'>
             <TopScreen data={data} setMainday={setMainday} setAmerican={setAmerican} />
-            <BottomScreen data={main_day} hour={hour} />
+            <BottomScreen data={main_day} hour={hour} setLocation={setLocation} />
         </div>
     )
 }

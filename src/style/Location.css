@@ -2,4 +2,7 @@
     height:100%;
     width: 20%;
     color: white;
+    display:flex;
+    flex-direction: column;
+    gap: 10%;
 }
