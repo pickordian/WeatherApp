@@ -1,7 +1,40 @@
-.MainDay{
-    height:90%;
-    width: 80%;
-    background-color: rgb(28, 26, 26);
-    color:white;
-    box-shadow: 5px 5px 5px 5px gray;
+.MainDay {
+    height: 95%;
+    width: 75%;
+    background-color: rgba(108, 80, 121, 0.7);
+    color: rgb(228, 138, 13);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2rem 0rem 0rem 2rem;
+}
+
+.DataContainer {
+    text-align: center;
+    font-size: 3rem;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.DetailData{
+font-size: 2rem;
+height: 20%;
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: flex-end;
+}
+.MainData{
+height: 100%;
+width: 30%;
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items: center;
+}
+.data-Location{
+    font-size: 2rem;
+    padding-left: 20rem;
 }

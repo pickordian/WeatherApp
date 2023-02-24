@@ -1,14 +1,19 @@
-.TopScreen{
-    display:flex;
+.TopScreen {
+    display: flex;
     flex-direction: row;
     height: 20%;
-    width:  100%;
+    width: 100%;
     justify-content: space-between;
+    padding: 1rem;
+    box-sizing: border-box;
 }
-.Otherdays-containter{
+
+.Otherdays-containter {
     height: 100%;
-    width: 80%;
-    display:flex;
+    width: 75%;
+    font-size: 1.5rem;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }

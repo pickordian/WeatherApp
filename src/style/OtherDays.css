@@ -1,8 +1,9 @@
 .OtherDays{
-    height: 90%;
-    width: calc(100%/8);
-    opacity: 50%;
-    border-style: solid;
-    border-color: white;
-
+    height: 100%;
+    text-align: left;
+    width: calc(100%/7 - 0.3rem);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    padding-left : 1rem;
+    font-weight: 900;
 }

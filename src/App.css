@@ -1,13 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css?family=Mynerve');
 .App{
   font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Mynerve','Times New Roman', Times, serif;
+  font-weight: 600;
   color: white;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: rgb(242, 237, 237);
-}
-footer{
-  height: 10vh;
-  background-color: rgb(150, 143, 143);
+  background-color: rgb(25, 26, 25);
 }

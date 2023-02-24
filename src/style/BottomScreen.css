@@ -3,4 +3,6 @@
     flex-direction: row;
     height: 80%;
     width: 100%;
+    box-sizing: border-box;
+    padding: 0rem 1rem 1rem 1rem;
 }
