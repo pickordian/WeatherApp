@@ -121,7 +121,7 @@ function Location(props) {
               fontWeight: "600",
               color: props.style.seco,
               fontSize: "1.2rem",
-              fontFamily: "Mynerve"
+              fontFamily: "Staatliches"
             },
             '& label.Mui-focused': {
               color: props.style.seco,
@@ -129,7 +129,7 @@ function Location(props) {
             '& .MuiInputBase-input': {
               color: props.style.seco,
               fontSize: "1.2rem",
-              fontFamily: "Mynerve",
+              fontFamily: "Staatliches",
                fontWeight: "600"
             }
           }} {...params} label="Countries" />}
@@ -175,7 +175,7 @@ function Location(props) {
                 fontWeight: "600",
                 color: props.style.seco,
                 fontSize: "1.2rem",
-                fontFamily: "Mynerve"
+                fontFamily: "Staatliches"
               },
               '& label.Mui-focused': {
                 color: props.style.seco,
@@ -183,7 +183,7 @@ function Location(props) {
               '& .MuiInputBase-input': {
                 color: props.style.seco,
                 fontSize: "1.2rem",
-                fontFamily: "Mynerve",
+                fontFamily: "Staatliches",
                  fontWeight: "600"
               }
             }}{...params} label="States" />}
@@ -227,7 +227,7 @@ function Location(props) {
                 fontWeight: "600",
                 color: props.style.seco,
                 fontSize: "1.2rem",
-                fontFamily: "Mynerve"
+                fontFamily: "Staatliches"
               },
               '& label.Mui-focused': {
                 color: props.style.seco,
@@ -235,7 +235,7 @@ function Location(props) {
               '& .MuiInputBase-input': {
                 color: props.style.seco,
                 fontSize: "1.2rem",
-                fontFamily: "Mynerve",
+                fontFamily: "Staatliches",
                 fontWeight: "600"
               }
             }}{...params} label="Cities" />}

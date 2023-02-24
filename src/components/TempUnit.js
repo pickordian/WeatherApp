@@ -9,7 +9,7 @@ const Ibutton = styled.button`
    border: none;
    transition: 0.2s;
    background-image: linear-gradient(rgb(0 0 0/0.3 ) 0 0);
-   font-family: Mynerve;
+   font-family: Staatliches ;
    font-weight: 600;
  ${props => {
   if (props.on === "true")
