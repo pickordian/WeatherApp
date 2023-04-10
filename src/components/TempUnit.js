@@ -52,8 +52,6 @@ function TempUnit(props) {
       setMetric(true)
     }
     else if (!isMetric && !Imperial) {
-      const eagle_sound = new Audio(eagle);
-      eagle_sound.play();
       props.setUnit({
         temp_unit: "fahrenheit",
         windspeed_unit: "mph"

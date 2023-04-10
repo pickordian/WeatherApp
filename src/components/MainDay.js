@@ -37,7 +37,7 @@ function MainDay(props) {
   useEffect(() => {
         const interval = setInterval(() => {
           setTime(new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit",  hourCycle: "h23", timeZone: props.data.timezone }))
-      }, [60 * 1000])
+      }, [5 * 1000])
       return () => clearInterval(interval);
   }, [props.data.timezone])
   useEffect(() => {
